@@ -25,10 +25,7 @@ public:
     }
   }
 
-  Fraction(int numerator) : numerator(numerator)
-  {
-    this->denominator = 1;
-  }
+  Fraction(int numerator) : numerator(numerator), denominator(1) {}
 
   Fraction &reduce()
   {
